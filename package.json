@@ -1,5 +1,5 @@
 {
-  "name": "asclepius",
+  "name": "cancer-prediction",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -8,13 +8,14 @@
     "start": "node ./src/server/server.js"
   },
   "keywords": [],
-  "author": "Erlan Irhab Ghalib",
+  "author": "Derva Anargya Ghaly",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/firestore": "^7.7.0",
     "@hapi/hapi": "^21.3.9",
     "@tensorflow/tfjs-node": "^3.1.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "punycode": "^2.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
